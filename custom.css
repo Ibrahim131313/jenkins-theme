@@ -1,0 +1,51 @@
+/* تغيير الخلفية العامة */
+body {
+  background-color: #1e1e2f !important;
+  color: #f5f5f5 !important;
+}
+
+/* تغيير لون الـ header */
+#page-head, #header {
+  background-color: #2a2a40 !important;
+  border-bottom: 2px solid #ff9800 !important;
+}
+
+/* تغيير لون الروابط */
+a {
+  color: #ff9800 !important;
+}
+a:hover {
+  color: #ffc107 !important;
+}
+
+/* تغيير شكل الأزرار */
+button, .yui-button button {
+  background-color: #ff9800 !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: bold;
+  border-radius: 8px !important;
+  padding: 6px 12px !important;
+}
+button:hover {
+  background-color: #e68900 !important;
+}
+
+/* تغيير لون الـ sidebar */
+#side-panel {
+  background-color: #2a2a40 !important;
+  border-right: 2px solid #ff9800 !important;
+}
+
+/* تغيير لون التابز */
+.tab {
+  background-color: #33334d !important;
+  color: #f5f5f5 !important;
+  border-radius: 6px !important;
+  margin: 2px !important;
+  padding: 5px 10px !important;
+}
+.tab.active {
+  background-color: #ff9800 !important;
+  color: #fff !important;
+}
